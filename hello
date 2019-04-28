@@ -1,0 +1,30 @@
+
+print("Welcome to Python Programming")
+
+e="Enter your name"
+i=input(e)
+
+s="Enter your Nickname"
+b=input(s)
+
+bd="Enter your birthday"
+dob=input(bd)
+
+g="Enter your Gender"
+MF=input(g)
+
+p="Enter your password"
+PS=input(p)
+
+a="Name"
+n="Nickname"
+bb="Birthday"
+gd="Gender"
+pp="Enter your password"
+print(a.ljust(30,' '),i.ljust(10,' '))
+print(n.ljust(30,' '),b.ljust(10,' '))
+print (bb.ljust(30,' '),dob.ljust(10,' '))
+print(gd.ljust(30,' '),MF.ljust(10,' '))
+print(pp.ljust(30,' '),PS.ljust(10,' '))
+exit()
+
